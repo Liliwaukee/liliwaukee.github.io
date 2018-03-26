@@ -5,47 +5,6 @@
   font-family: "AdventProLight";
   src: url("../fonts/AdventPro-Light.ttf") format("truetype"); }
 
-@font-face {
-  font-family: "Elysio";
-  src: url("../fonts/Elysio-Hairline.otf");
-}  
-
-@font-face {
-  font-family: "fabiollo";
-  src: url("../fonts/FabioloSmallCap-Light.otf");
-} 
-
-@font-face {
-  font-family: "hagin";
-  src: url("../fonts/Hagin Caps Thin.otf");
-} 
-
-@font-face {
-  font-family: "harmon";
-  src: url("../fonts/HarmoniaSansStd-Light.otf");
-} 
-
-@font-face {
-  font-family: "iska";
-  src: url("../fonts/IskraCYR-Medium.otf");
-} 
-
-@font-face {
-  font-family: "niches";
-  src: url("../fonts/Los Niches.otf");
-} 
-
-@font-face {
-  font-family: "ostrich";
-  src: url("../fonts/TypoSlab Irregular Demo.otf");
-}
-
-@font-face {
-  font-family: "yanone";
-  src: url("../fonts/YanoneKaffeesatz-ExtraLight.ttf");
-}
-
-
 
 
 
@@ -149,7 +108,7 @@
 
 #skills {
   background: #908eff;
-  margin-bottom: 10vh;
+  margin-bottom: 12vh;
 }
 
 li{
