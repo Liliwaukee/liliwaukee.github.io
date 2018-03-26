@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "AdventPro";
+  src: url("../fonts/AdventPro-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "AdventProLight";
+  src: url("../fonts/AdventPro-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Elysio";
+  src: url("../fonts/Elysio-Hairline.otf");
+}  
+
+@font-face {
+  font-family: "fabiollo";
+  src: url("../fonts/FabioloSmallCap-Light.otf");
+} 
+
+@font-face {
+  font-family: "hagin";
+  src: url("../fonts/Hagin Caps Thin.otf");
+} 
+
+@font-face {
+  font-family: "harmon";
+  src: url("../fonts/HarmoniaSansStd-Light.otf");
+} 
+
+@font-face {
+  font-family: "iska";
+  src: url("../fonts/IskraCYR-Medium.otf");
+} 
+
+@font-face {
+  font-family: "niches";
+  src: url("../fonts/Los Niches.otf");
+} 
+
+@font-face {
+  font-family: "ostrich";
+  src: url("../fonts/TypoSlab Irregular Demo.otf");
+}
+
+@font-face {
+  font-family: "yanone";
+  src: url("../fonts/YanoneKaffeesatz-ExtraLight.ttf");
+}
+
+
+
+
+
+
+
+
+
+#first-view {
+  height: 100vh; }
+
+
+
+.title {
+  font-family: "AdventProLight";
+  color: #5b61cf!important;
+  font-size: 4em!important;
+  line-height: 0.8em!important; }
+
+.name-title {
+  color: #5b61cf!important;
+  margin-bottom: 3vh!important;
+  font-size: 3em;
+}
+
+#title-section{
+  background: url("../images/amphersand.svg") no-repeat!important;
+}
+
+#about {
+ 
+  background-color: #1fffd2!important;
+  border-radius: 8px;
+  margin: 10vh 0 0 0;
+}
+
+#about-description {
+  background: white;
+  /*border: 1px solid blue;*/
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #5b61cf;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 4% 16%!important;
+  padding: 3vh 4vw;
+
+}
+
+#header-menu  a:hover{
+  -moz-border-radius: 0 80% / 0 100%;
+  -webkit-border-radius: 0 80% / 0 100%;
+  border-radius: 0 80% / 0 100%;
+  background: #1fffd2;
+  color: #5b61cf;
+  font-size: 1.5em;
+}
+
+
+#passions {
+  background-color: #5b61cf;
+}
+
+#passions, #skills {
+  border-radius: 7px;
+  color: #1fffd2;
+  font-size: 1em;
+  padding: 8vh 2vw;
+}
+
+.subtitle {
+  color: white!important;
+  font-family: "AdventProLight";
+  font-size: 1.6em;
+  text-decoration: underline;
+  text-decoration-color: #1fffd2;
+}
+
+#passions img, #skills img {
+  box-sizing: border-box;
+  display: inline;
+  height: 12vh;
+  padding: 1vh;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border:2px solid #1fffd2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2vh;
+}
+
+#passions img:hover {
+  width: 65px;
+     height: 65px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border:1px solid white;
+}
+
+#skills {
+  background: #908eff;
+  margin-bottom: 10vh;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 2vw!important;
+  text-align: right!important;
+  text-decoration: none;
+}
+
+li a {
+  color: #5b61cf;
+  font-weight: bold;
+}
