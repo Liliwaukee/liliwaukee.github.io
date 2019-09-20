@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "AdventPro";
+  src: url("../fonts/AdventPro-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "AdventProLight";
+  src: url("../fonts/AdventPro-Light.ttf") format("truetype"); }
+
+#first-view {
+  height: 100vh; }
+
+
+.title {
+  font-family: "AdventProLight";
+  color: #5b61cf!important;
+  font-size: 4em!important;
+  line-height: 0.8em!important; }
+
+.name-title {
+  color: #5b61cf!important;
+  margin-bottom: 3vh!important;
+  font-size: 3em;
+}
+
+#title-section{
+  background: url("../images/amphersand.svg") no-repeat!important;
+}
+
+#about {
+  background-color: #1fffd2!important;
+  border-radius: 8px;
+  margin: 10vh 0 2vh 0;
+}
+
+#about-description {
+  background: white;
+  /*border: 1px solid blue;*/
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #5b61cf;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 4% 16%!important;
+  padding: 3vh 4vw;
+}
+
+#header-menu  a:hover{
+  -moz-border-radius: 0 80% / 0 100%;
+  -webkit-border-radius: 0 80% / 0 100%;
+  border-radius: 0 80% / 0 100%;
+  background: #1fffd2;
+  color: #5b61cf;
+  font-size: 1.5em;
+}
+
+
+#passions {
+  background-color: #5b61cf;
+  box-sizing: border-box;
+}
+
+#passions, #skills {
+  border-radius: 7px;
+  color: #1fffd2;
+  font-size: 1em;
+  padding: 8vh 2vw;
+}
+
+.subtitle {
+  color: white!important;
+  font-family: "AdventProLight";
+  font-size: 1.6em;
+  text-decoration: underline;
+  text-decoration-color: #1fffd2;
+}
+
+#passions img, #skills img {
+  box-sizing: border-box;
+  display: inline;
+  height: 12vh;
+  padding: 1vh;
+  width: 60px;
+  height: 60px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border:2px solid #1fffd2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2vh;
+}
+
+#passions img:hover, #skills img:hover{
+  width: 65px;
+     height: 65px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border:1px solid white;
+}
+
+#skills {
+  background: #908eff;
+  box-sizing: border-box;
+}
+
+#tech-skills {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 4vh 0 12vh 0;
+  padding: 2em;
+}
+
+#tech-skills .subtitle {
+  color: #5b61cf!important;
+}
+
+.tech-skills-logo {
+  display: inline-block;
+  height: 10vh;
+  margin: 0.8em;
+}
+
+.btn-details {
+  background-color: #5b61cf;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2vh;
+  padding: 0.8em;
+}
+
+.modal-body i {
+  color: #5b61cf;
+  margin:0 0.5vw;
+}
+figcaption span, figcaption h2 {
+  background-color: rgba(255,255,255,0.9);
+  display: inline-block;
+  color: #908eff!important;
+}
+
+body {
+  background-image: url(../images/background.png);
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 2vw!important;
+  text-align: right!important;
+  text-decoration: none;
+}
+
+li a {
+  color: #5b61cf;
+  font-weight: bold;
+}
